@@ -1,0 +1,11 @@
+#banner {
+    width: 100%;
+    flex-direction: column;
+    margin: auto 0;
+
+    * {
+        padding: 30px 0;
+        background-color: rgba(255, 255, 255, 0.6);
+        margin: 0;
+    }
+}
