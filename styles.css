@@ -1,112 +1,114 @@
+/* SCSS variables */
+/* import font-faces */
 @font-face {
-    font-family: Lexend-SemiBold;
-    src: url(fonts/Lexend/Lexend-SemiBold.ttf)  format('truetype');
-    font-weight: 600;
+  font-family: Lexend-SemiBold;
+  src: url(fonts/Lexend/Lexend-SemiBold.ttf) format("truetype");
+  font-weight: 600;
 }
-
 @font-face {
-    font-family: Lexend-Bold;
-    src: url(fonts/Lexend/Lexend-Bold.ttf)  format('truetype');
-    font-weight: bold;
+  font-family: Lexend-Bold;
+  src: url(fonts/Lexend/Lexend-Bold.ttf) format("truetype");
+  font-weight: bold;
 }
-
 @font-face {
-    font-family: Lexend-Regular;
-    src: url(fonts/Lexend/Lexend-Regular.ttf)  format('truetype');
-    font-weight: normal;
+  font-family: Lexend-Regular;
+  src: url(fonts/Lexend/Lexend-Regular.ttf) format("truetype");
+  font-weight: normal;
 }
-
-body {
-    text-align: center;
-    font-size: 1.8rem;
-    font-family: Lexend-Regular, sans-serif;
-    color:seagreen;
-}
-
-h1, h2, h3, h4, h5, h6 {font-family: Lexend-SemiBold, sans-serif; margin: 0;}
-
-nav li {
-    font-size: 1.2em;
-    text-decoration: underline;
-}
-
-#products-and-services img { 
-    width: 200px;
-    height: auto;
-    margin: 5px; 
-    border-radius: 5px;
-}
-
-p {margin: 0;}
-
-#products-and-services p {margin: 0 20px;}
-
-#team, #products-and-services, #banner-container {
-    margin:  50px 0;
-}
-
-ul {
-    padding: 20px;
-    margin: 0;
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: wrap;
-    margin: 20px 0;
-}
-
+/* set tag defaults */
 li {
-    display: block;
-}
-
-#products-and-services li {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 10px 20px;
-    background: rgba(255, 255, 255, 0.6);
-    padding: 20px 10px;
-    border-radius:10px;
-    flex-basis: fit-content;
-}
-
-#team li {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    flex-basis: 280px;
-    margin: 10px;
-    background: rgba(255, 255, 255, 0.6);
-    padding: 20px 10px;
-    border-radius:10px;
+  display: block;
 }
 
 dd {
-    margin: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font: 1.8rem Lexend-Regular, sans-serif;
+  color: seagreen;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lexend-SemiBold, sans-serif;
+  margin: 0;
+}
+
+nav li {
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+ul {
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  margin: 20px 0;
+}
+
+#team, #products-and-services, #banner-container {
+  margin: 50px 0;
 }
 
 #banner-container {
-    display: flex;
-    height: 500px;
-    background: url(./images/field-banner.jpg) 50% 75% / cover no-repeat;
+  display: flex;
+  justify-content: initial;
+  align-items: initial;
+  height: 500px;
+  background: url(./images/field-banner.jpg) 50% 75%/cover no-repeat;
+}
+
+#products-and-services li {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px 20px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 20px 10px;
+  border-radius: 10px;
+  flex-basis: fit-content;
+}
+#products-and-services img {
+  width: 200px;
+  height: auto;
+  margin: 5px;
+  border-radius: 5px;
+}
+#products-and-services ul {
+  background: url(./images/field-banner.jpg) center 75%/cover no-repeat;
+}
+#products-and-services p {
+  margin: 50px 0;
 }
 
 #banner {
-    width: 100%;
-    flex-direction: column;
-    margin: auto 0;
+  width: 100%;
+  margin: auto 0;
 }
-
 #banner * {
-    padding: 30px 0;
-    background-color: rgba(255, 255, 255, 0.6);
-    margin: 0;
+  padding: 30px 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 0;
 }
 
-#products-and-services ul {
-    background: url(./images/field-banner.jpg) center 75% / cover no-repeat;
+#team li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 280px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 20px 10px;
+  border-radius: 10px;
 }
-
 #team ul {
-    background: url(./images/field-banner.jpg) center 75% / cover no-repeat;
-}
+  background: url(./images/field-banner.jpg) center 75%/cover no-repeat;
+}/*# sourceMappingURL=styles.css.map */
